@@ -1,0 +1,23 @@
+# macOS
+.DS_Store
+._*
+
+# Xcode / Swift local output
+/DerivedData/
+/build/
+/dist/
+.build/
+xcuserdata/
+*.xcuserstate
+*.xccheckout
+*.xcscmblueprint
+.swiftpm/xcode/
+
+# Local credentials and environment
+.env
+.env.*
+!.env.example
+*.p12
+*.p8
+*.mobileprovision
+*.provisionprofile
